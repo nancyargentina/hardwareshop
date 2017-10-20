@@ -1,0 +1,241 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+HS.DAL
+</name>
+</assembly>
+<members>
+<member name="T:HS.DAL.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:HS.DAL.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:HS.DAL.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="F:HS.DAL.BitacoraDAL._wrapper">
+ <summary>
+ objeto que encapsula la funcionalidad de acceso, persistencia y lectura
+ de datos en el origen de datos.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:HS.DAL.BitacoraDAL._conversor">
+ <summary>
+ conversor a entidades de los datos devueltos por la consulta SQL.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:HS.DAL.ComandoFactory.CrearComando(System.String)">
+ <summary>
+ Retorna una instancia del objeto que se va a conectar a la base de datos.
+ </summary>
+ <param name="connectionKey"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:HS.DAL.IFamiliaPermisoDAL.PermisoPadre">
+ <summary>
+ Permiso padre de todos los permisos que se van a agregar, borrar o consultar.
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="F:HS.DAL.FamiliaPermisoDAL._wrapper">
+ <summary>
+ objeto que encapsula la funcionalidad de acceso, persistencia y lectura
+ de datos en el origen de datos.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:HS.DAL.FamiliaPermisoDAL._conversor">
+ <summary>
+ conversor a entidades de los datos devueltos por la consulta SQL.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:HS.DAL.FamiliaPermisoDAL._permisoPadre">
+ <summary>
+ Permiso padre de todos los pemisos que se van a agregar, borrar o consultar
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:HS.DAL.FamiliaPermisoDAL.PermisoPadre">
+ <summary>
+ Permiso padre de todos los permisos que se van a agregar, borrar o consultar.
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="T:HS.DAL.IComando">
+ <summary>
+ Interfaz que define los metodos que deben implementar todos los proveedores
+ de acceso a datos.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:HS.DAL.IConversor`1">
+ <summary>
+ Interfaz que define los metodos que todas las clases que expongan mecanismos de
+ conversion desde origenes de datos deben implementar.
+ </summary>
+ <typeparam name="T"></typeparam>
+ <remarks></remarks>
+</member>
+<member name="M:HS.DAL.IConversor`1.Convertir(System.Data.IDataReader)">
+ <summary>
+ Convertir datos desde un objeto IDataReader.
+ </summary>
+ <param name="reader"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:HS.DAL.IConversor`1.Convertir(System.Data.DataRow)">
+ <summary>
+ Convertir datos desde un objeto DataRow.
+ </summary>
+ <param name="row"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="T:HS.DAL.IMapeador`1">
+ <summary>
+ Interfaz que define los metodos que todas las clases que expongan mecanismos de
+ persistencia de datos a un origen de datos deben implementar.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:HS.DAL.IMapeador`1.Wrapper">
+ <summary>
+ Establece u obtiene el objeto que actuara como encapsulador de la funcionalidad
+ de acceso a datos. Si no se especifica (Nothing) se usara el predeterminado.
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:HS.DAL.IMapeador`1.Conversor">
+ <summary>
+ Establece u obtiene el objeto que actuara como conversor de los datos obtenidos
+ desde el origen de datos. Si no se especifica (Nothing) se usara el predeterminado.
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:HS.DAL.IMapeador`1.Alta(`0@)">
+ <summary>
+ Agrega un objeto del tipo T.
+ </summary>
+ <param name="value"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:HS.DAL.IMapeador`1.Baja(`0@)">
+ <summary>
+ Elimina un objeto del tipo T ya existente.
+ </summary>
+ <param name="value"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:HS.DAL.IMapeador`1.Modificacion(`0@)">
+ <summary>
+ Modifica un objeto del tipo T ya existente.
+ </summary>
+ <param name="value"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:HS.DAL.IMapeador`1.Consulta(`0@)">
+ <summary>
+ Retorna el primer objeto del tipo T que coincida con el filtro especificado.
+ </summary>
+ <param name="filtro"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:HS.DAL.IMapeador`1.ConsultaRango(`0@,`0@)">
+ <summary>
+ Retorna todos los objetos del tipo T que coincidan con los valores
+ especificados en el rango desde-hasta.
+ </summary>
+ <param name="filtroDesde"></param>
+ <param name="filtroHasta"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="F:HS.DAL.PermisoDAL._wrapper">
+ <summary>
+ objeto que encapsula la funcionalidad de acceso, persistencia y lectura
+ de datos en el origen de datos.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:HS.DAL.PermisoDAL._conversor">
+ <summary>
+ conversor a BE de los datos devueltos por la consulta SQL.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:HS.DAL.UsuarioDAL._wrapper">
+ <summary>
+ objeto que encapsula la funcionalidad de acceso, persistencia y lectura
+ de datos en el origen de datos.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:HS.DAL.UsuarioDAL._conversor">
+ <summary>
+ conversor a entidades de los datos devueltos por la consulta SQL.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:HS.DAL.IUsuarioPermisoDAL.UsuarioActual">
+ <summary>
+ Permiso padre de todos los permisos que se van a agregar, borrar o consultar.
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="F:HS.DAL.UsuarioPermisoDAL._wrapper">
+ <summary>
+ objeto que encapsula la funcionalidad de acceso, persistencia y lectura
+ de datos en el origen de datos.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:HS.DAL.UsuarioPermisoDAL._conversor">
+ <summary>
+ conversor a BE de los datos devueltos por la consulta SQL.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:HS.DAL.UsuarioPermisoDAL._usuario">
+ <summary>
+ Usuario padre de todos los pemisos que se van a agregar, borrar o consultar
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:HS.DAL.UsuarioPermisoDAL.UsuarioActual">
+ <summary>
+ Permiso padre de todos los permisos que se van a agregar, borrar o consultar.
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+</members>
+</doc>

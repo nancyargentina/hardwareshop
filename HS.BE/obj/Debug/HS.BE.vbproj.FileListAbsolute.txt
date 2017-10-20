@@ -1,0 +1,28 @@
+C:\Users\Cristian\Desktop\tp lppa\v1_HardwareShop\HardwareShop\HS.BE\bin\Debug\HS.BE.dll
+C:\Users\Cristian\Desktop\tp lppa\v1_HardwareShop\HardwareShop\HS.BE\bin\Debug\HS.BE.pdb
+C:\Users\Cristian\Desktop\tp lppa\v1_HardwareShop\HardwareShop\HS.BE\bin\Debug\HS.BE.xml
+C:\Users\Cristian\Desktop\tp lppa\v1_HardwareShop\HardwareShop\HS.BE\obj\Debug\HS.BE.Resources.resources
+C:\Users\Cristian\Desktop\tp lppa\v1_HardwareShop\HardwareShop\HS.BE\obj\Debug\HS.BE.vbproj.GenerateResource.Cache
+C:\Users\Cristian\Desktop\tp lppa\v1_HardwareShop\HardwareShop\HS.BE\obj\Debug\HS.BE.dll
+C:\Users\Cristian\Desktop\tp lppa\v1_HardwareShop\HardwareShop\HS.BE\obj\Debug\HS.BE.xml
+C:\Users\Cristian\Desktop\tp lppa\v1_HardwareShop\HardwareShop\HS.BE\obj\Debug\HS.BE.pdb
+C:\_Todo lo mio\Mio\Facultad\LPPA\v3_HardwareShop\v2_HardwareShop\HardwareShop\HS.BE\bin\Debug\HS.BE.dll
+C:\_Todo lo mio\Mio\Facultad\LPPA\v3_HardwareShop\v2_HardwareShop\HardwareShop\HS.BE\bin\Debug\HS.BE.pdb
+C:\_Todo lo mio\Mio\Facultad\LPPA\v3_HardwareShop\v2_HardwareShop\HardwareShop\HS.BE\bin\Debug\HS.BE.xml
+C:\_Todo lo mio\Mio\Facultad\LPPA\v3_HardwareShop\v2_HardwareShop\HardwareShop\HS.BE\obj\Debug\HS.BE.vbprojResolveAssemblyReference.cache
+C:\_Todo lo mio\Mio\Facultad\LPPA\v3_HardwareShop\v2_HardwareShop\HardwareShop\HS.BE\obj\Debug\HS.BE.Resources.resources
+C:\_Todo lo mio\Mio\Facultad\LPPA\v3_HardwareShop\v2_HardwareShop\HardwareShop\HS.BE\obj\Debug\HS.BE.vbproj.GenerateResource.Cache
+C:\_Todo lo mio\Mio\Facultad\LPPA\v3_HardwareShop\v2_HardwareShop\HardwareShop\HS.BE\obj\Debug\HS.BE.vbproj.CoreCompileInputs.cache
+C:\_Todo lo mio\Mio\Facultad\LPPA\v3_HardwareShop\v2_HardwareShop\HardwareShop\HS.BE\obj\Debug\HS.BE.dll
+C:\_Todo lo mio\Mio\Facultad\LPPA\v3_HardwareShop\v2_HardwareShop\HardwareShop\HS.BE\obj\Debug\HS.BE.xml
+C:\_Todo lo mio\Mio\Facultad\LPPA\v3_HardwareShop\v2_HardwareShop\HardwareShop\HS.BE\obj\Debug\HS.BE.pdb
+C:\Users\IEUser\Downloads\TP LPPA\TP LPPA\Versiones TP\HardwareShop\HS.BE\bin\Debug\HS.BE.dll
+C:\Users\IEUser\Downloads\TP LPPA\TP LPPA\Versiones TP\HardwareShop\HS.BE\bin\Debug\HS.BE.pdb
+C:\Users\IEUser\Downloads\TP LPPA\TP LPPA\Versiones TP\HardwareShop\HS.BE\bin\Debug\HS.BE.xml
+C:\Users\IEUser\Downloads\TP LPPA\TP LPPA\Versiones TP\HardwareShop\HS.BE\obj\Debug\HS.BE.vbprojResolveAssemblyReference.cache
+C:\Users\IEUser\Downloads\TP LPPA\TP LPPA\Versiones TP\HardwareShop\HS.BE\obj\Debug\HS.BE.Resources.resources
+C:\Users\IEUser\Downloads\TP LPPA\TP LPPA\Versiones TP\HardwareShop\HS.BE\obj\Debug\HS.BE.vbproj.GenerateResource.Cache
+C:\Users\IEUser\Downloads\TP LPPA\TP LPPA\Versiones TP\HardwareShop\HS.BE\obj\Debug\HS.BE.vbproj.CoreCompileInputs.cache
+C:\Users\IEUser\Downloads\TP LPPA\TP LPPA\Versiones TP\HardwareShop\HS.BE\obj\Debug\HS.BE.dll
+C:\Users\IEUser\Downloads\TP LPPA\TP LPPA\Versiones TP\HardwareShop\HS.BE\obj\Debug\HS.BE.xml
+C:\Users\IEUser\Downloads\TP LPPA\TP LPPA\Versiones TP\HardwareShop\HS.BE\obj\Debug\HS.BE.pdb
