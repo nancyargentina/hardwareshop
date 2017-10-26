@@ -1,0 +1,503 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DirectedGraph DataVirtualized="True" Layout="Sugiyama" xmlns="http://schemas.microsoft.com/vs/2009/dgml">
+  <Nodes>
+    <Node Id="(@1 @2 Type=Encrypter Member=(Name=EncriptarSHA512 OverloadingParameters=[@5]))" Category="CodeSchema_Method" Bounds="337.511666666667,167.88,124.926666666667,25.96" CodeSchemaProperty_IsHideBySignature="True" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsStatic="True" CommonLabel="EncriptarSHA512" Icon="CodeSchema_Method" Label="EncriptarSHA512" SourceLocation="(Assembly=file:///C:/Users/IEUser/Desktop/hardwareshop/HS.BLL/Encrypter.vb StartLineNumber=33 StartCharacterOffset=0 EndLineNumber=33 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="(@13 @14 Type=BitacoraDAL @22)" Category="CodeSchema_Method" Bounds="490.813333333333,223.84,100.323333333333,25.96" CodeSchemaProperty_IsConstructor="True" CodeSchemaProperty_IsHideBySignature="True" CodeSchemaProperty_IsPublic="True" CommonLabel="BitacoraDAL" Icon="CodeSchema_Method" Label="BitacoraDAL" SourceLocation="(Assembly=file:///C:/Users/IEUser/Desktop/hardwareshop/HS.DAL/BitacoraDAL.vb StartLineNumber=16 StartCharacterOffset=0 EndLineNumber=16 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="(@13 @14 Type=DB Member=ObtenerConexion)" Category="CodeSchema_Method" Bounds="325.253333333333,503.64,129.443333333333,25.96" CodeSchemaProperty_IsHideBySignature="True" CodeSchemaProperty_IsPublic="True" CommonLabel="ObtenerConexion" Icon="CodeSchema_Method" Label="ObtenerConexion" SourceLocation="(Assembly=file:///C:/Users/IEUser/Desktop/hardwareshop/HS.DAL/DB.vb StartLineNumber=82 StartCharacterOffset=0 EndLineNumber=82 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="(@13 @14 Type=UsuarioDAL @22)" Category="CodeSchema_Method" Bounds="919.048333333333,391.72,97.8533333333335,25.96" CodeSchemaProperty_IsConstructor="True" CodeSchemaProperty_IsHideBySignature="True" CodeSchemaProperty_IsPublic="True" CommonLabel="UsuarioDAL" Icon="CodeSchema_Method" Label="UsuarioDAL" SourceLocation="(Assembly=file:///C:/Users/IEUser/Desktop/hardwareshop/HS.DAL/UsuarioDAL.vb StartLineNumber=16 StartCharacterOffset=0 EndLineNumber=16 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="(@13 @14 Type=UsuarioPermisoDAL @22)" Category="CodeSchema_Method" Bounds="749.001666666667,391.72,139.946666666667,25.96" CodeSchemaProperty_IsConstructor="True" CodeSchemaProperty_IsHideBySignature="True" CodeSchemaProperty_IsPublic="True" CommonLabel="UsuarioPermisoDAL" Icon="CodeSchema_Method" Label="UsuarioPermisoDAL" SourceLocation="(Assembly=file:///C:/Users/IEUser/Desktop/hardwareshop/HS.DAL/UsuarioPermisoDAL.vb StartLineNumber=20 StartCharacterOffset=0 EndLineNumber=20 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="(Name=HS.DAL.DB.AgregarParametro @29 Type=System.Data.IDataParameter OverloadingParameters=[(Type=&quot;System.Data.IDbCommand {System.Data.SqlClient.SqlCommand}&quot; Name=command),(Type=String Name=parameterName),(Type=&quot;Object {String}&quot; Name=value)] @30)" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="585.383333333333,391.72,133.183333333333,25.96" Label="AgregarParametro" SourceLocation="(Assembly=file:///C:/Users/IEUser/Desktop/hardwareshop/HS.DAL/DB.vb StartLineNumber=13 StartCharacterOffset=0 EndLineNumber=13 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="(Name=HS.DAL.DB.AgregarParametro @29 Type=System.Data.IDataParameter OverloadingParameters=[(Type=&quot;System.Data.IDbCommand {System.Data.SqlClient.SqlCommand}&quot; Name=command),(Type=String Name=parameterName),(Type=&quot;Object {System.DBNull}&quot; Name=value)] @30)" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="421.383333333333,391.72,133.183333333333,25.96" Label="AgregarParametro" SourceLocation="(Assembly=file:///C:/Users/IEUser/Desktop/hardwareshop/HS.DAL/DB.vb StartLineNumber=13 StartCharacterOffset=0 EndLineNumber=13 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@10" Category="CodeSchema_Method" Bounds="619.93,111.92,102.09,25.96" CodeSchemaProperty_IsHideBySignature="True" CodeSchemaProperty_IsPublic="True" CommonLabel="IniciarSesion" Icon="CodeSchema_Method" Label="IniciarSesion" SourceLocation="(Assembly=file:///C:/Users/zoear/Desktop/hardwareshop-master/HS.WebUI/vistas/AutenticacionVista.vb StartLineNumber=80 StartCharacterOffset=0 EndLineNumber=80 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@11" Category="CodeSchema_Method" Bounds="752.226666666667,167.88,133.496666666667,25.96" CodeSchemaProperty_IsHideBySignature="True" CodeSchemaProperty_IsPublic="True" CommonLabel="UsuarioBloqueado" Icon="CodeSchema_Method" Label="UsuarioBloqueado" SourceLocation="(Assembly=file:///C:/Users/zoear/Desktop/hardwareshop-master/HS.WebUI/vistas/AutenticacionVista.vb StartLineNumber=133 StartCharacterOffset=0 EndLineNumber=133 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@12" Category="CodeSchema_Method" Bounds="629.868333333333,223.84,82.2133333333334,25.96" CodeSchemaProperty_IsHideBySignature="True" CodeSchemaProperty_IsPublic="True" CommonLabel="Consulta" Icon="CodeSchema_Method" Label="Consulta" SourceLocation="(Assembly=file:///C:/Users/IEUser/Desktop/hardwareshop/HS.BLL/UsuarioBLL.vb StartLineNumber=64 StartCharacterOffset=0 EndLineNumber=64 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@15" Category="CodeSchema_Method" Bounds="194.868333333333,279.8,82.2133333333334,25.96" CodeSchemaProperty_IsHideBySignature="True" CodeSchemaProperty_IsPublic="True" CommonLabel="Consulta" Icon="CodeSchema_Method" Label="Consulta" SourceLocation="(Assembly=file:///C:/Users/IEUser/Desktop/hardwareshop/HS.DAL/UsuarioDAL.vb StartLineNumber=62 StartCharacterOffset=0 EndLineNumber=62 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@17" Category="CodeSchema_Method" Bounds="0,503.64,115.95,25.96" CodeSchemaProperty_IsHideBySignature="True" CodeSchemaProperty_IsPublic="True" CommonLabel="CrearComando" Icon="CodeSchema_Method" Label="CrearComando" SourceLocation="(Assembly=file:///C:/Users/IEUser/Desktop/hardwareshop/HS.DAL/DB.vb StartLineNumber=50 StartCharacterOffset=0 EndLineNumber=50 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@18" Category="CodeSchema_Method" Bounds="619.93,167.88,102.09,25.96" CodeSchemaProperty_IsHideBySignature="True" CodeSchemaProperty_IsPublic="True" CommonLabel="IniciarSesion" Icon="CodeSchema_Method" Label="IniciarSesion" SourceLocation="(Assembly=file:///C:/Users/IEUser/Desktop/hardwareshop/HS.BLL/Autenticador.vb StartLineNumber=62 StartCharacterOffset=0 EndLineNumber=62 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@19" Category="CodeSchema_Method" Bounds="396.33,111.92,193.29,25.96" CodeSchemaProperty_IsHideBySignature="True" CodeSchemaProperty_IsPublic="True" CommonLabel="CrearUsuarioParaIniciarSesion" Icon="CodeSchema_Method" Label="CrearUsuarioParaIniciarSesion" SourceLocation="(Assembly=file:///C:/Users/zoear/Desktop/hardwareshop-master/HS.WebUI/vistas/AutenticacionVista.vb StartLineNumber=106 StartCharacterOffset=0 EndLineNumber=106 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@20" Category="CodeSchema_Method" Bounds="88.7833333333333,447.68,116.383333333333,25.96" CodeSchemaProperty_IsHideBySignature="True" CodeSchemaProperty_IsPublic="True" CommonLabel="ConsultaRango" Icon="CodeSchema_Method" Label="ConsultaRango" SourceLocation="(Assembly=file:///C:/Users/IEUser/Desktop/hardwareshop/HS.DAL/UsuarioPermisoDAL.vb StartLineNumber=135 StartCharacterOffset=0 EndLineNumber=135 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@21" Category="CodeSchema_Method" Bounds="177.783333333333,335.76,116.383333333333,25.96" CodeSchemaProperty_IsHideBySignature="True" CodeSchemaProperty_IsPublic="True" CommonLabel="ConsultaRango" Icon="CodeSchema_Method" Label="ConsultaRango" SourceLocation="(Assembly=file:///C:/Users/IEUser/Desktop/hardwareshop/HS.DAL/UsuarioDAL.vb StartLineNumber=116 StartCharacterOffset=0 EndLineNumber=116 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@23" Category="CodeSchema_Method" Bounds="915.883333333333,167.88,134.183333333333,25.96" CodeSchemaProperty_IsConstructor="True" CodeSchemaProperty_IsHideBySignature="True" CodeSchemaProperty_IsPublic="True" CommonLabel="AutenticacionVista" Icon="CodeSchema_Method" Label="AutenticacionVista" SourceLocation="(Assembly=file:///C:/Users/zoear/Desktop/hardwareshop-master/HS.WebUI/vistas/AutenticacionVista.vb StartLineNumber=13 StartCharacterOffset=0 EndLineNumber=13 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@24" Category="CodeSchema_Method" Bounds="849.696666666667,223.84,104.556666666667,25.96" CodeSchemaProperty_IsConstructor="True" CodeSchemaProperty_IsHideBySignature="True" CodeSchemaProperty_IsPublic="True" CommonLabel="Autenticador" Icon="CodeSchema_Method" Label="Autenticador" SourceLocation="(Assembly=file:///C:/Users/IEUser/Desktop/hardwareshop/HS.BLL/Autenticador.vb StartLineNumber=30 StartCharacterOffset=0 EndLineNumber=30 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@25" Category="CodeSchema_Method" Bounds="492.478333333333,167.88,96.9933333333333,25.96" CodeSchemaProperty_IsConstructor="True" CodeSchemaProperty_IsHideBySignature="True" CodeSchemaProperty_IsPublic="True" CommonLabel="BitacoraBLL" Icon="CodeSchema_Method" Label="BitacoraBLL" SourceLocation="(Assembly=file:///C:/Users/IEUser/Desktop/hardwareshop/HS.BLL/BitacoraBLL.vb StartLineNumber=22 StartCharacterOffset=0 EndLineNumber=22 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@26" Category="CodeSchema_Method" Bounds="771.713333333333,335.76,94.5233333333333,25.96" CodeSchemaProperty_IsConstructor="True" CodeSchemaProperty_IsHideBySignature="True" CodeSchemaProperty_IsPublic="True" CommonLabel="UsuarioBLL" Icon="CodeSchema_Method" Label="UsuarioBLL" SourceLocation="(Assembly=file:///C:/Users/IEUser/Desktop/hardwareshop/HS.BLL/UsuarioBLL.vb StartLineNumber=36 StartCharacterOffset=0 EndLineNumber=36 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@27" Category="CodeSchema_Method" Bounds="849.846666666667,111.92,104.256666666667,25.96" CodeSchemaProperty_IsHideBySignature="True" CodeSchemaProperty_IsPublic="True" CommonLabel="UpdateLogin" Icon="CodeSchema_Method" Label="UpdateLogin" SourceLocation="(Assembly=file:///C:/Users/zoear/Desktop/hardwareshop-master/HS.WebUI/Site.Master.vb StartLineNumber=7 StartCharacterOffset=0 EndLineNumber=7 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@28" Category="CodeSchema_Method" Bounds="266.728333333333,447.68,132.493333333333,25.96" CodeSchemaProperty_IsHideBySignature="True" CodeSchemaProperty_IsPrivate="True" CommonLabel="ValidarConnection" Icon="CodeSchema_Method" Label="ValidarConnection" SourceLocation="(Assembly=file:///C:/Users/IEUser/Desktop/hardwareshop/HS.DAL/DB.vb StartLineNumber=103 StartCharacterOffset=0 EndLineNumber=103 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@3" Category="CodeSchema_Method" Bounds="849.696666666667,279.8,104.556666666667,25.96" CodeSchemaProperty_IsConstructor="True" CodeSchemaProperty_IsHideBySignature="True" CodeSchemaProperty_IsPublic="True" CommonLabel="Autenticador" Icon="CodeSchema_Method" Label="Autenticador" SourceLocation="(Assembly=file:///C:/Users/IEUser/Desktop/hardwareshop/HS.BLL/Autenticador.vb StartLineNumber=35 StartCharacterOffset=0 EndLineNumber=35 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@31" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="267.418333333333,391.72,123.113333333333,25.96" Label="ConsultarReader" SourceLocation="(Assembly=file:///C:/Users/IEUser/Desktop/hardwareshop/HS.DAL/DB.vb StartLineNumber=70 StartCharacterOffset=0 EndLineNumber=70 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@32" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="176.928333333333,503.640000000001,118.093333333333,25.96" Label="CerrarConexion" SourceLocation="(Assembly=file:///C:/Users/IEUser/Desktop/hardwareshop/HS.DAL/DB.vb StartLineNumber=31 StartCharacterOffset=0 EndLineNumber=31 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@33" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="120.678333333333,391.72,84.5933333333334,25.96" Label="Convertir" SourceLocation="(Assembly=file:///C:/Users/IEUser/Desktop/hardwareshop/HS.DAL/UsuarioConversor.vb StartLineNumber=33 StartCharacterOffset=0 EndLineNumber=33 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@35" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="762.433333333333,55.96,113.083333333333,25.96" Label="btnLogin_Click" SourceLocation="(Assembly=file:///C:/Users/zoear/Desktop/hardwareshop-master/HS.WebUI/Login.aspx.vb StartLineNumber=48 StartCharacterOffset=0 EndLineNumber=48 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="ExternalCodeRootNode" Category="ExternalCallStackEntry" Bounds="772.481666666667,0,92.9866666666667,25.96" Label="External Code">
+      <Category Ref="CallStackEntry" />
+    </Node>
+  </Nodes>
+  <Links>
+    <Link Source="@10" Target="@18" Category="CallStackDirectCall" Bounds="670.974975585938,137.880004882813,0,21" />
+    <Link Source="@10" Target="@25" Category="CallStackDirectCall" Bounds="579.395324707031,137.880004882813,61.4259643554688,26.4415283203125" />
+    <Link Source="@11" Target="@12" Category="CallStackDirectCall" Bounds="713.722106933594,193.839996337891,70.924072265625,26.8169708251953" />
+    <Link Source="@11" Target="@26" Category="CallStackDirectCall" Bounds="818.974975585938,193.839996337891,0,132.920013427734" />
+    <Link Source="@12" Target="@15" Category="CallStackDirectCall" Bounds="286.030090332031,246.018051147461,343.838256835938,41.3805999755859" />
+    <Link Source="@15" Target="@21" Category="CallStackDirectCall" Bounds="235.975006103516,305.760009765625,0,21" />
+    <Link Source="@18" Target="@12" Category="CallStackDirectCall" Bounds="670.974975585938,193.839996337891,0,21" />
+    <Link Source="@19" Target="(@1 @2 Type=Encrypter Member=(Name=EncriptarSHA512 OverloadingParameters=[@5]))" Category="CallStackDirectCall" Bounds="429.258056640625,137.880004882813,42.1454772949219,25.3597869873047" />
+    <Link Source="@20" Target="@17" Category="CallStackDirectCall" Bounds="86.2377395629883,473.640014648438,40.0935897827148,25.2093811035156" />
+    <Link Source="@20" Target="@32" Category="CallStackDirectCall" Bounds="167.618667602539,473.640014648438,40.0935974121094,25.2093811035156" />
+    <Link Source="@21" Target="(Name=HS.DAL.DB.AgregarParametro @29 Type=System.Data.IDataParameter OverloadingParameters=[(Type=&quot;System.Data.IDbCommand {System.Data.SqlClient.SqlCommand}&quot; Name=command),(Type=String Name=parameterName),(Type=&quot;Object {String}&quot; Name=value)] @30)" Category="CallStackDirectCall" Bounds="294.166656494141,356.227844238281,282.311248779297,37.061279296875" />
+    <Link Source="@21" Target="(Name=HS.DAL.DB.AgregarParametro @29 Type=System.Data.IDataParameter OverloadingParameters=[(Type=&quot;System.Data.IDbCommand {System.Data.SqlClient.SqlCommand}&quot; Name=command),(Type=String Name=parameterName),(Type=&quot;Object {System.DBNull}&quot; Name=value)] @30)" Category="CallStackDirectCall" Bounds="292.652740478516,361.326049804688,128.084533691406,28.4429016113281" />
+    <Link Source="@21" Target="@17" Category="CallStackDirectCall" Bounds="57.9749984741211,361.720001220703,136.71265411377,132.920013427734" />
+    <Link Source="@21" Target="@31" Category="CallStackDirectCall" Bounds="257.546478271484,361.720001220703,42.1454772949219,25.3597717285156" />
+    <Link Source="@21" Target="@32" Category="CallStackDirectCall" Bounds="235.975006103516,361.720001220703,0,132.920013427734" />
+    <Link Source="@21" Target="@33" Category="CallStackDirectCall" Bounds="187.050216674805,361.720001220703,31.9923248291016,24.5245361328125" />
+    <Link Source="@23" Target="@24" Category="CallStackDirectCall" Bounds="928.167785644531,193.839996337891,36.0191650390625,24.8843383789063" />
+    <Link Source="@24" Target="@3" Category="CallStackDirectCall" Bounds="901.974975585938,249.800003051758,0,20.9999847412109" />
+    <Link Source="@25" Target="(@13 @14 Type=BitacoraDAL @22)" Category="CallStackDirectCall" Bounds="540.974975585938,193.839996337891,0,21" />
+    <Link Source="@26" Target="(@13 @14 Type=UsuarioDAL @22)" Category="CallStackDirectCall" Bounds="853.535766601563,361.720001220703,71.4530639648438,26.8356628417969" />
+    <Link Source="@26" Target="(@13 @14 Type=UsuarioPermisoDAL @22)" Category="CallStackDirectCall" Bounds="818.974975585938,361.720001220703,0,21" />
+    <Link Source="@27" Target="@23" Category="CallStackDirectCall" Bounds="920.763061523438,137.880004882813,36.0191650390625,24.8843383789063" />
+    <Link Source="@28" Target="(@13 @14 Type=DB Member=ObtenerConexion)" Category="CallStackDirectCall" Bounds="346.196228027344,473.640014648438,24.13525390625,23.6948852539063" />
+    <Link Source="@3" Target="@26" Category="CallStackDirectCall" Bounds="845.689331054688,305.760009765625,37.03369140625,24.96875" />
+    <Link Source="@31" Target="@28" Category="CallStackDirectCall" Bounds="329.902801513672,417.679992675781,1.50271606445313,21.0229187011719" />
+    <Link Source="@33" Target="@20" Category="CallStackDirectCall" Bounds="153.160339355469,417.679992675781,6.10343933105469,21.3467712402344" />
+    <Link Source="@35" Target="@10" Category="CallStackDirectCall" Bounds="713.722106933594,81.9199981689453,70.924072265625,26.8169631958008" />
+    <Link Source="@35" Target="@11" Category="CallStackDirectCall" Bounds="818.974975585938,81.9199981689453,0,76.9600067138672" />
+    <Link Source="@35" Target="@19" Category="CallStackDirectCall" Bounds="577.46142578125,78.6457443237305,184.971923828125,31.7516174316406" />
+    <Link Source="@35" Target="@27" Category="CallStackDirectCall" Bounds="838.226989746094,81.9199981689453,37.03369140625,24.9687652587891" />
+    <Link Source="ExternalCodeRootNode" Target="@35" Category="CallStackIndirectCall" Bounds="818.974975585938,25.9599990844727,0,21" />
+  </Links>
+  <Categories>
+    <Category Id="CallStackDirectCall" Label="Call Stack direct call" CanBeDataDriven="True" CanLinkedNodesBeDataDriven="True" IncomingActionLabel="Call Stack direct call" OutgoingActionLabel="Call Stack direct call" />
+    <Category Id="CallStackEntry" Label="Call Stack Entry" CanBeDataDriven="True" IsProviderRoot="False" NavigationActionLabel="Call Stack Entry" />
+    <Category Id="CallStackIndirectCall" Label="Call Stack indirect call" CanBeDataDriven="True" CanLinkedNodesBeDataDriven="True" IncomingActionLabel="Call Stack indirect call" OutgoingActionLabel="Call Stack indirect call" />
+    <Category Id="CodeSchema_CallStackUnresolvedMethod" Label="Unresolved Method" CanBeDataDriven="True" DefaultAction="Microsoft.AllOutBoundLinks" IsProviderRoot="False" NavigationActionLabel="Unresolved Method" />
+    <Category Id="CodeSchema_Member" Label="Member" CanBeDataDriven="True" DefaultAction="Microsoft.Contains" Icon="CodeSchema_Field" NavigationActionLabel="Members" />
+    <Category Id="CodeSchema_Method" Label="Method" BasedOn="CodeSchema_Member" CanBeDataDriven="True" DefaultAction="Link:Forward:CodeSchema_Calls" Icon="CodeSchema_Method" NavigationActionLabel="Methods" />
+    <Category Id="CodeSchema_SourceLocation" Label="Source Location" Icon="File" />
+    <Category Id="ExternalCallStackEntry" Label="External Call Stack Entry" CanBeDataDriven="True" IsProviderRoot="False" NavigationActionLabel="External Call Stack Entry" />
+  </Categories>
+  <Properties>
+    <Property Id="Bounds" DataType="System.Windows.Rect" />
+    <Property Id="CanBeDataDriven" Label="CanBeDataDriven" Description="CanBeDataDriven" DataType="System.Boolean" />
+    <Property Id="CanLinkedNodesBeDataDriven" Label="CanLinkedNodesBeDataDriven" Description="CanLinkedNodesBeDataDriven" DataType="System.Boolean" />
+    <Property Id="CodeSchemaProperty_IsConstructor" Label="Is Constructor" Description="Flag to indicate the method is a constructor" DataType="System.Boolean" />
+    <Property Id="CodeSchemaProperty_IsHideBySignature" Label="Hides By Signature" Description="Flag to indicate the method hides another method of the same signature" DataType="System.Boolean" />
+    <Property Id="CodeSchemaProperty_IsPrivate" Label="Is Private" Description="Flag to indicate the scope is Private" DataType="System.Boolean" />
+    <Property Id="CodeSchemaProperty_IsPublic" Label="Is Public" Description="Flag to indicate the scope is Public" DataType="System.Boolean" />
+    <Property Id="CodeSchemaProperty_IsStatic" Label="Is Static" Description="Flag to indicate the member is a static member" DataType="System.Boolean" />
+    <Property Id="CommonLabel" DataType="System.String" />
+    <Property Id="DataVirtualized" Label="Data Virtualized" Description="If true, the graph can contain nodes and links that represent data for virtualized nodes/links (i.e. not actually created in the graph)." DataType="System.Boolean" />
+    <Property Id="DefaultAction" Label="DefaultAction" Description="DefaultAction" DataType="System.String" />
+    <Property Id="Expression" DataType="System.String" />
+    <Property Id="GroupLabel" DataType="System.String" />
+    <Property Id="Icon" Label="Icon" DataType="System.String" />
+    <Property Id="IncomingActionLabel" Label="IncomingActionLabel" Description="IncomingActionLabel" DataType="System.String" />
+    <Property Id="IsEnabled" DataType="System.Boolean" />
+    <Property Id="IsProviderRoot" Label="IsProviderRoot" Description="IsProviderRoot" DataType="System.Boolean" />
+    <Property Id="Label" Label="Label" Description="Displayable label of an Annotatable object" DataType="System.String" />
+    <Property Id="Layout" DataType="System.String" />
+    <Property Id="NavigationActionLabel" Label="NavigationActionLabel" Description="NavigationActionLabel" DataType="System.String" />
+    <Property Id="OutgoingActionLabel" Label="OutgoingActionLabel" Description="OutgoingActionLabel" DataType="System.String" />
+    <Property Id="SourceLocation" Label="Start Line Number" DataType="Microsoft.VisualStudio.GraphModel.CodeSchema.SourceLocation" />
+    <Property Id="TargetType" DataType="System.Type" />
+    <Property Id="Value" DataType="System.String" />
+    <Property Id="ValueLabel" DataType="System.String" />
+    <Property Id="Visibility" Label="Visibility" Description="Defines whether a node in the graph is visible or not" DataType="System.Windows.Visibility" />
+  </Properties>
+  <QualifiedNames>
+    <Name Id="Assembly" Label="Assembly" ValueType="Uri" />
+    <Name Id="IsUnresolved" Label="Is Unresolved" ValueType="System.String" />
+    <Name Id="Member" Label="Member" ValueType="System.Object" />
+    <Name Id="Name" Label="Name" ValueType="System.String" />
+    <Name Id="Namespace" Label="Namespace" ValueType="System.String" />
+    <Name Id="OverloadingParameters" Label="Parameter" ValueType="Microsoft.VisualStudio.GraphModel.GraphNodeIdCollection" Formatter="NameValueNoEscape" />
+    <Name Id="ParamKind" Label="Parameter Kind" ValueType="Microsoft.VisualStudio.GraphModel.CodeSchema.ParamKind" />
+    <Name Id="Type" Label="Type" ValueType="System.Object" />
+  </QualifiedNames>
+  <IdentifierAliases>
+    <Alias n="1" Uri="Assembly=$(404402ec-a964-43cf-a6ff-d6c56a05964c.OutputPathUri)" />
+    <Alias n="2" Id="Namespace=HS.BLL" />
+    <Alias n="3" Id="(@1 @2 Type=Autenticador Member=(Name=.ctor OverloadingParameters=[(@1 @2 Type=IUsuarioBLL)]))" />
+    <Alias n="4" Uri="Assembly=$(FxReferenceAssembliesUri)/.NETFramework/v4.5/mscorlib.dll" />
+    <Alias n="5" Id="(@4 Namespace=System Type=String)" />
+    <Alias n="6" Uri="Assembly=$(7e810315-ce1c-4ab8-8156-658666e81450.OutputPathUri)" />
+    <Alias n="7" Id="Namespace=HS.WebUI" />
+    <Alias n="8" Id="Type=AutenticacionVista" />
+    <Alias n="9" Uri="Assembly=$(7bf06c5d-7178-44c4-8dd0-bc338eb84566.OutputPathUri)" />
+    <Alias n="10" Id="(@6 @7 @8 Member=(Name=IniciarSesion OverloadingParameters=[(@9 Namespace=HS.BE Type=UsuarioDTO)]))" />
+    <Alias n="11" Id="(@6 @7 @8 Member=(Name=UsuarioBloqueado OverloadingParameters=[(@9 Namespace=HS.BE Type=UsuarioDTO)]))" />
+    <Alias n="12" Id="(@1 @2 Type=UsuarioBLL Member=(Name=Consulta OverloadingParameters=[(@9 Namespace=HS.BE Type=UsuarioDTO ParamKind=Ref)]))" />
+    <Alias n="13" Uri="Assembly=$(aa2c4402-4d85-4da4-883d-28b82f4735ad.OutputPathUri)" />
+    <Alias n="14" Id="Namespace=HS.DAL" />
+    <Alias n="15" Id="(@13 @14 Type=UsuarioDAL Member=(Name=Consulta OverloadingParameters=[(@9 Namespace=HS.BE Type=UsuarioDTO ParamKind=Ref)]))" />
+    <Alias n="16" Uri="Assembly=$(FxReferenceAssembliesUri)/.NETFramework/v4.5/System.Data.dll" />
+    <Alias n="17" Id="(@13 @14 Type=DB Member=(Name=CrearComando OverloadingParameters=[@5,(@16 Namespace=System.Data Type=CommandType)]))" />
+    <Alias n="18" Id="(@1 @2 Type=Autenticador Member=(Name=IniciarSesion OverloadingParameters=[(@9 Namespace=HS.BE Type=UsuarioDTO),(@4 Namespace=System Type=Int32)]))" />
+    <Alias n="19" Id="(@6 @7 @8 Member=(Name=CrearUsuarioParaIniciarSesion OverloadingParameters=[@5,@5]))" />
+    <Alias n="20" Id="(@13 @14 Type=UsuarioPermisoDAL Member=(Name=ConsultaRango OverloadingParameters=[(@9 Namespace=HS.BE Type=PermisoDTO ParamKind=Ref),(@9 Namespace=HS.BE Type=PermisoDTO ParamKind=Ref)]))" />
+    <Alias n="21" Id="(@13 @14 Type=UsuarioDAL Member=(Name=ConsultaRango OverloadingParameters=[(@9 Namespace=HS.BE Type=UsuarioDTO ParamKind=Ref),(@9 Namespace=HS.BE Type=UsuarioDTO ParamKind=Ref)]))" />
+    <Alias n="22" Id="Member=.ctor" />
+    <Alias n="23" Id="(@6 @7 @8 @22)" />
+    <Alias n="24" Id="(@1 @2 Type=Autenticador @22)" />
+    <Alias n="25" Id="(@1 @2 Type=BitacoraBLL @22)" />
+    <Alias n="26" Id="(@1 @2 Type=UsuarioBLL @22)" />
+    <Alias n="27" Id="(@6 @7 Type=Site Member=UpdateLogin)" />
+    <Alias n="28" Id="(@13 @14 Type=DB Member=ValidarConnection)" />
+    <Alias n="29" Uri="Assembly=HS.DAL.dll" />
+    <Alias n="30" Id="IsUnresolved=True" />
+    <Alias n="31" Id="(Name=HS.DAL.DB.ConsultarReader @29 Type=System.Data.IDataReader OverloadingParameters=[(Type=&quot;System.Data.IDbCommand {System.Data.SqlClient.SqlCommand}&quot; Name=command)] @30)" />
+    <Alias n="32" Id="(Name=HS.DAL.DB.CerrarConexion @29 Type=Void OverloadingParameters=[(Type=&quot;System.Data.IDbCommand {System.Data.SqlClient.SqlCommand}&quot; Name=command)] @30)" />
+    <Alias n="33" Id="(Name=HS.DAL.UsuarioConversor.Convertir @29 Type=HS.BE.UsuarioDTO OverloadingParameters=[(Type=&quot;System.Data.IDataReader {System.Data.SqlClient.SqlDataReader}&quot; Name=reader)] @30)" />
+    <Alias n="34" Uri="Assembly=HS.WebUI.dll" />
+    <Alias n="35" Id="(Name=HS.WebUI.Login.btnLogin_Click @34 Type=Void OverloadingParameters=[(Type=&quot;Object {System.Web.UI.WebControls.Button}&quot; Name=sender),(Type=System.EventArgs Name=e)] @30)" />
+  </IdentifierAliases>
+  <Styles>
+    <Style TargetType="Link" GroupLabel="Current Call Stack Link" ValueLabel="True" Visibility="Hidden">
+      <Condition Expression="HasCategory('CurrentCallStackCall')" />
+      <Setter Property="Stroke" Value="#FFD93701" />
+      <Setter Property="Weight" Value="1" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="Call Stack Indirect Link" ValueLabel="True" Visibility="Hidden">
+      <Condition Expression="HasCategory('CallStackIndirectCall')" />
+      <Setter Property="Stroke" Value="#FFB8B8B8" />
+      <Setter Property="StrokeDashArray" Value="4 1" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="Call Stack Direct Link" ValueLabel="True" Visibility="Hidden">
+      <Condition Expression="HasCategory('CallStackDirectCall')" />
+      <Setter Property="Stroke" Value="#FFB8B8B8" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Current Call Stack (no source)" ValueLabel="True">
+      <Condition Expression="HasCategory('CurrentCallStackEntry') And !HasCategory('CodeSchema_SourceLocation')" />
+      <Setter Property="Background" Value="Transparent" />
+      <Setter Property="Foreground" Value="#FFA5A5A5" />
+      <Setter Property="Stroke" Value="#FF0072C6" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="External And Current" ValueLabel="True" Visibility="Hidden">
+      <Condition Expression="HasCategory('ExternalCallStackEntry') And HasCategory('CurrentCallStackEntry')" />
+      <Setter Property="Background" Value="#FFFFF8F0" />
+      <Setter Property="Stroke" Value="#FFCE5100" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Current Call Stack (source)" ValueLabel="True">
+      <Condition Expression="HasCategory('CurrentCallStackEntry') And !HasCategory('QueryResult')" />
+      <Setter Property="Background" Value="#FFFFE3C6" />
+      <Setter Property="Stroke" Value="#FFD93701" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="External Call Stack" ValueLabel="True">
+      <Condition Expression="HasCategory('ExternalCallStackEntry')" />
+      <Setter Property="Background" Value="#FFF7F7F7" />
+      <Setter Property="StrokeDashArray" Value="1 3" />
+      <Setter Property="Foreground" Value="#FF717171" />
+      <Setter Property="Stroke" Value="#FFA5A5A5" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Results" ValueLabel="True">
+      <Condition Expression="HasCategory('QueryResult')" />
+      <Setter Property="Background" Value="#FFBCFFBE" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Test Project" ValueLabel="Test Project">
+      <Condition Expression="HasCategory('CodeMap_TestProject')" />
+      <Setter Property="Icon" Value="CodeMap_TestProject" />
+      <Setter Property="Background" Value="#FF307A69" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Web Project" ValueLabel="Web Project">
+      <Condition Expression="HasCategory('CodeMap_WebProject')" />
+      <Setter Property="Icon" Value="CodeMap_WebProject" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Windows Store Project" ValueLabel="Windows Store Project">
+      <Condition Expression="HasCategory('CodeMap_WindowsStoreProject')" />
+      <Setter Property="Icon" Value="CodeMap_WindowsStoreProject" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Phone Project" ValueLabel="Phone Project">
+      <Condition Expression="HasCategory('CodeMap_PhoneProject')" />
+      <Setter Property="Icon" Value="CodeMap_PhoneProject" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Portable Library" ValueLabel="Portable Library">
+      <Condition Expression="HasCategory('CodeMap_PortableLibraryProject')" />
+      <Setter Property="Icon" Value="CodeMap_PortableLibraryProject" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="WPF Project" ValueLabel="WPF Project">
+      <Condition Expression="HasCategory('CodeMap_WpfProject')" />
+      <Setter Property="Icon" Value="CodeMap_WpfProject" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="VSIX Project" ValueLabel="VSIX Project">
+      <Condition Expression="HasCategory('CodeMap_VsixProject')" />
+      <Setter Property="Icon" Value="CodeMap_VsixProject" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Modeling Project" ValueLabel="Modeling Project">
+      <Condition Expression="HasCategory('CodeMap_ModelingProject')" />
+      <Setter Property="Icon" Value="CodeMap_ModelingProject" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Assembly" ValueLabel="Has category">
+      <Condition Expression="HasCategory('CodeSchema_Assembly')" />
+      <Setter Property="Background" Value="#FF094167" />
+      <Setter Property="Stroke" Value="#FF094167" />
+      <Setter Property="Icon" Value="CodeSchema_Assembly" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Namespace" ValueLabel="Has category">
+      <Condition Expression="HasCategory('CodeSchema_Namespace')" />
+      <Setter Property="Background" Value="#FF0E619A" />
+      <Setter Property="Stroke" Value="#FF0E619A" />
+      <Setter Property="Icon" Value="CodeSchema_Namespace" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Interface" ValueLabel="Has category">
+      <Condition Expression="HasCategory('CodeSchema_Interface')" />
+      <Setter Property="Background" Value="#FF1382CE" />
+      <Setter Property="Stroke" Value="#FF1382CE" />
+      <Setter Property="Icon" Value="CodeSchema_Interface" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Struct" ValueLabel="Has category">
+      <Condition Expression="HasCategory('CodeSchema_Struct')" />
+      <Setter Property="Background" Value="#FF1382CE" />
+      <Setter Property="Stroke" Value="#FF1382CE" />
+      <Setter Property="Icon" Value="CodeSchema_Struct" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Enumeration" ValueLabel="Has category">
+      <Condition Expression="HasCategory('CodeSchema_Enum')" />
+      <Setter Property="Background" Value="#FF1382CE" />
+      <Setter Property="Stroke" Value="#FF1382CE" />
+      <Setter Property="Icon" Value="CodeSchema_Enum" />
+      <Setter Property="LayoutSettings" Value="List" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Delegate" ValueLabel="Has category">
+      <Condition Expression="HasCategory('CodeSchema_Delegate')" />
+      <Setter Property="Background" Value="#FF1382CE" />
+      <Setter Property="Stroke" Value="#FF1382CE" />
+      <Setter Property="Icon" Value="CodeSchema_Delegate" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Class" ValueLabel="Has category">
+      <Condition Expression="HasCategory('CodeSchema_Type')" />
+      <Setter Property="Background" Value="#FF0E70C0" />
+      <Setter Property="Stroke" Value="#FF0E70C0" />
+      <Setter Property="Icon" Value="CodeSchema_Class" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Property" ValueLabel="Has category">
+      <Condition Expression="HasCategory('CodeSchema_Property')" />
+      <Setter Property="Background" Value="#FFE0E0E0" />
+      <Setter Property="Stroke" Value="#FFE0E0E0" />
+      <Setter Property="Icon" Value="CodeSchema_Property" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Method" ValueLabel="Has category">
+      <Condition Expression="HasCategory('CodeSchema_Method') Or HasCategory('CodeSchema_CallStackUnresolvedMethod')" />
+      <Setter Property="Background" Value="#FFE0E0E0" />
+      <Setter Property="Stroke" Value="#FFE0E0E0" />
+      <Setter Property="Icon" Value="CodeSchema_Method" />
+      <Setter Property="LayoutSettings" Value="List" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Event" ValueLabel="Has category">
+      <Condition Expression="HasCategory('CodeSchema_Event')" />
+      <Setter Property="Background" Value="#FFE0E0E0" />
+      <Setter Property="Stroke" Value="#FFE0E0E0" />
+      <Setter Property="Icon" Value="CodeSchema_Event" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Field" ValueLabel="Has category">
+      <Condition Expression="HasCategory('CodeSchema_Field')" />
+      <Setter Property="Background" Value="#FFE0E0E0" />
+      <Setter Property="Stroke" Value="#FFE0E0E0" />
+      <Setter Property="Icon" Value="CodeSchema_Field" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Out Parameter" ValueLabel="Has category">
+      <Condition Expression="CodeSchemaProperty_IsOut = 'True'" />
+      <Setter Property="Icon" Value="CodeSchema_OutParameter" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Parameter" ValueLabel="Has category">
+      <Condition Expression="HasCategory('CodeSchema_Parameter')" />
+      <Setter Property="Icon" Value="CodeSchema_Parameter" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Local Variable" ValueLabel="Has category">
+      <Condition Expression="HasCategory('CodeSchema_LocalExpression')" />
+      <Setter Property="Icon" Value="CodeSchema_LocalExpression" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Externals" ValueLabel="Has category">
+      <Condition Expression="HasCategory('Externals')" />
+      <Setter Property="Background" Value="#FF424242" />
+      <Setter Property="Stroke" Value="#FF424242" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="Inherits From" ValueLabel="True">
+      <Condition Expression="HasCategory('InheritsFrom')" />
+      <Setter Property="Stroke" Value="#FF00A600" />
+      <Setter Property="StrokeDashArray" Value="2 0" />
+      <Setter Property="DrawArrow" Value="true" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="Implements" ValueLabel="True">
+      <Condition Expression="HasCategory('Implements')" />
+      <Setter Property="Stroke" Value="#8000A600" />
+      <Setter Property="StrokeDashArray" Value="2 2" />
+      <Setter Property="DrawArrow" Value="true" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="Calls" ValueLabel="True">
+      <Condition Expression="HasCategory('CodeSchema_Calls')" />
+      <Setter Property="Stroke" Value="#FFFF00FF" />
+      <Setter Property="StrokeDashArray" Value="2 0" />
+      <Setter Property="DrawArrow" Value="true" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="Function Pointer" ValueLabel="True">
+      <Condition Expression="HasCategory('CodeSchema_FunctionPointer')" />
+      <Setter Property="Stroke" Value="#FFFF00FF" />
+      <Setter Property="StrokeDashArray" Value="2 2" />
+      <Setter Property="DrawArrow" Value="true" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="Field Read" ValueLabel="True">
+      <Condition Expression="HasCategory('CodeSchema_FieldRead')" />
+      <Setter Property="Stroke" Value="#FF00AEEF" />
+      <Setter Property="StrokeDashArray" Value="2 2" />
+      <Setter Property="DrawArrow" Value="true" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="Field Write" ValueLabel="True">
+      <Condition Expression="HasCategory('CodeSchema_FieldWrite')" />
+      <Setter Property="Stroke" Value="#FF00AEEF" />
+      <Setter Property="DrawArrow" Value="true" />
+      <Setter Property="IsHidden" Value="false" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="Inherits From" ValueLabel="True" Visibility="Hidden">
+      <Condition Expression="HasCategory('InheritsFrom') And Target.HasCategory('CodeSchema_Class')" />
+      <Setter Property="TargetDecorator" Value="OpenArrow" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="Implements" ValueLabel="True" Visibility="Hidden">
+      <Condition Expression="HasCategory('Implements') And Target.HasCategory('CodeSchema_Interface')" />
+      <Setter Property="TargetDecorator" Value="OpenArrow" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="Comment Link" ValueLabel="True" Visibility="Hidden">
+      <Condition Expression="Source.HasCategory('Comment')" />
+      <Setter Property="Stroke" Value="#FFE5C365" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Cursor Location Changed" ValueLabel="True" Visibility="Hidden">
+      <Condition Expression="IsCursorLocation" />
+      <Setter Property="IndicatorWest" Value="WestIndicator" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Disabled Breakpoint Location Changed" ValueLabel="True" Visibility="Hidden">
+      <Condition Expression="DisabledBreakpointCount" />
+      <Setter Property="IndicatorWest" Value="WestIndicator" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Enabled Breakpoint Location Changed" ValueLabel="True" Visibility="Hidden">
+      <Condition Expression="EnabledBreakpointCount" />
+      <Setter Property="IndicatorWest" Value="WestIndicator" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Instruction Pointer Location Changed" ValueLabel="True" Visibility="Hidden">
+      <Condition Expression="IsInstructionPointerLocation" />
+      <Setter Property="IndicatorWest" Value="WestIndicator" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Current Callstack Changed" ValueLabel="True" Visibility="Hidden">
+      <Condition Expression="IsCurrentCallstackFrame" />
+      <Setter Property="IndicatorWest" Value="WestIndicator" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="Return" ValueLabel="True" Visibility="Hidden">
+      <Condition Expression="HasCategory('CodeSchema_ReturnTypeLink')" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="References" ValueLabel="True" Visibility="Hidden">
+      <Condition Expression="HasCategory('References')" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="Uses Attribute" ValueLabel="True" Visibility="Hidden">
+      <Condition Expression="HasCategory('CodeSchema_AttributeUse')" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Solution Folder" ValueLabel="True" Visibility="Hidden">
+      <Condition Expression="HasCategory('CodeMap_SolutionFolder')" />
+      <Setter Property="Background" Value="#FFDEBA83" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="Project Reference" ValueLabel="Project Reference">
+      <Condition Expression="HasCategory('CodeMap_ProjectReference')" />
+      <Setter Property="Stroke" Value="#9A9A9A" />
+      <Setter Property="StrokeDashArray" Value="2 2" />
+      <Setter Property="DrawArrow" Value="true" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="External Reference" ValueLabel="External Reference">
+      <Condition Expression="HasCategory('CodeMap_ExternalReference')" />
+      <Setter Property="Stroke" Value="#9A9A9A" />
+      <Setter Property="StrokeDashArray" Value="2 2" />
+      <Setter Property="DrawArrow" Value="true" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Comment" ValueLabel="Has comment">
+      <Condition Expression="HasCategory('Comment')" />
+      <Setter Property="Background" Value="#FFFFFACD" />
+      <Setter Property="Stroke" Value="#FFE5C365" />
+      <Setter Property="StrokeThickness" Value="1" />
+      <Setter Property="NodeRadius" Value="2" />
+      <Setter Property="MaxWidth" Value="250" />
+    </Style>
+  </Styles>
+  <Paths>
+    <Path Id="404402ec-a964-43cf-a6ff-d6c56a05964c.OutputPathUri" Value="file:///C:/Users/zoear/Desktop/hardwareshop-master/HS.BLL/bin/Debug/HS.BLL.dll" />
+    <Path Id="7bf06c5d-7178-44c4-8dd0-bc338eb84566.OutputPathUri" Value="file:///C:/Users/zoear/Desktop/hardwareshop-master/HS.BE/bin/Debug/HS.BE.dll" />
+    <Path Id="7e810315-ce1c-4ab8-8156-658666e81450.OutputPathUri" Value="file:///C:/Users/zoear/Desktop/hardwareshop-master/HS.WebUI/bin/HS.WebUI.dll" />
+    <Path Id="aa2c4402-4d85-4da4-883d-28b82f4735ad.OutputPathUri" Value="file:///C:/Users/zoear/Desktop/hardwareshop-master/HS.DAL/bin/Debug/HS.DAL.dll" />
+    <Path Id="FxReferenceAssembliesUri" Value="file:///C:/Program Files (x86)/Reference Assemblies/Microsoft/Framework" />
+  </Paths>
+</DirectedGraph>
