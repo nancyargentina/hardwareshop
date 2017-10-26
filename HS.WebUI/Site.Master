@@ -1,43 +1,41 @@
 ﻿<%@ Master Language="VB" AutoEventWireup="false" CodeBehind="Site.master.vb" Inherits="HS.WebUI.Site" %>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<!DOCTYPE html>
 <head runat="server">
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta charset="UTF-8"/>
     <title></title>
+    <link href="~/css/normalize.css" rel="stylesheet" type="text/css" />
     <link href="~/css/estilos.css" rel="stylesheet" type="text/css" />
-    <asp:ContentPlaceHolder ID="HeadContent" runat="server">
-    </asp:ContentPlaceHolder>
+    <asp:ContentPlaceHolder ID="HeadContent" runat="server"></asp:ContentPlaceHolder>
 </head>
+
 <body>
     <form runat="server">
-    <div class="page">
-        <div class="header">
-            <div class="title">
-                <h1>
-                    HARDWARE SHOP
-                </h1>
-            </div>
-            <div class="loginDisplay">
+        <header>
+            <h1 class="logo"><img src="img/logo.png" /></h1>
+            <ul class="contact-data">
+                <li><strong>Tel:</strong>+54-911-4223-5544</li>
+                <li><strong>Skype:</strong>ventas@hshop.com.ar</li>
+            </ul>
+            <div class="user-login">
                 <a href="~/Login.aspx" ID="HeadLoginStatus" runat="server">Iniciar sesión</a>
             </div>
-            <div class="clear hideSkiplink">
-                <asp:Menu ID="NavigationMenu" runat="server" CssClass="menu" EnableViewState="false" IncludeStyleBlock="false" Orientation="Horizontal">
-                    <Items>
-                        <asp:MenuItem NavigateUrl="~/Default.aspx" Text="Página principal"/>
-                        <asp:MenuItem NavigateUrl="~/About.aspx" Text="Nosotros"/>
-                    </Items>
-                </asp:Menu>
-            </div>
+
+            <div class="clear"></div>
+        </header>
+
+        <div class="clear menu-container">
+            <asp:Menu ID="NavigationMenu" runat="server" CssClass="menu" EnableViewState="false" IncludeStyleBlock="false" Orientation="Horizontal">
+                <Items>
+                    <asp:MenuItem NavigateUrl="~/Default.aspx" Text="Inicio"/>
+                    <asp:MenuItem NavigateUrl="~/About.aspx" Text="Nosotros"/>
+                </Items>
+            </asp:Menu>
         </div>
+
         <div class="main">
             <asp:ContentPlaceHolder ID="MainContent" runat="server"/>
+            <div class="clear"></div>
         </div>
-        <div class="clear">
-        </div>
-    </div>
-    <div class="footer">
-        
-    </div>
     </form>
 </body>
 </html>

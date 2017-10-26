@@ -124,20 +124,6 @@ Public Class BitacoraVista
         dataGrid.DataBind()
     End Sub
 
-    'Public Sub LlenarLista(ByRef listBox As System.Web.UI.WebControls.ListControl)
-    '    Dim lista As List(Of Usuario) = Me.UsuarioDinamico.ConsultaRango(Nothing, Nothing)
-    '    Me.LlenarLista(listBox, lista)
-    'End Sub
-
-    'Public Sub LlenarLista(ByRef listBox As System.Web.UI.WebControls.ListControl, ByVal lista As List(Of Usuario))
-    '    listBox.Items.Clear()
-    '    listBox.DataTextField = "Nombre"
-    '    listBox.DataValueField = "Id"
-    '    'traer todos los permisos y enlazarlo al DataSource del control
-    '    listBox.DataSource = lista
-    '    listBox.DataBind()
-    'End Sub
-
     Public Function ObtenerIdEnLista(ByVal listBox As System.Web.UI.WebControls.ListControl) As Integer
         If Not listBox Is Nothing AndAlso Not listBox.SelectedItem Is Nothing Then
             Return Convert.ToInt32(listBox.SelectedItem.Value)

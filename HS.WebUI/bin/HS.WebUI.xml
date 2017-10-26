@@ -6,275 +6,315 @@ HS.WebUI
 </name>
 </assembly>
 <members>
-<member name="F:HS.WebUI.Bitacora.lblMensaje">
-	<summary>
+<member name="T:HS.WebUI.My.MyWebExtension">
+ <summary>
+ Module used to define the properties that are available in the My Namespace for Web projects.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:HS.WebUI.My.MyWebExtension.Computer">
+ <summary>
+ Returns information about the host computer.
+ </summary>
+</member>
+<member name="P:HS.WebUI.My.MyWebExtension.User">
+ <summary>
+ Returns information for the current Web user.
+ </summary>
+</member>
+<member name="P:HS.WebUI.My.MyWebExtension.Request">
+ <summary>
+ Returns Request object.
+ </summary>
+</member>
+<member name="P:HS.WebUI.My.MyWebExtension.Response">
+ <summary>
+ Returns Response object.
+ </summary>
+</member>
+<member name="P:HS.WebUI.My.MyWebExtension.Log">
+ <summary>
+ Returns the Asp log object.
+ </summary>
+</member>
+<member name="F:HS.WebUI.Bitacora._lblMensaje">
+<summary>
 lblMensaje control.
 </summary>
-	<remarks>
+<remarks>
 Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
-</member><member name="F:HS.WebUI.Bitacora.MultiView1">
-	<summary>
+</member>
+<member name="F:HS.WebUI.Bitacora._MultiView1">
+<summary>
 MultiView1 control.
 </summary>
-	<remarks>
+<remarks>
 Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
-</member><member name="F:HS.WebUI.Bitacora.ViewBitacora">
-	<summary>
+</member>
+<member name="F:HS.WebUI.Bitacora._ViewBitacora">
+<summary>
 ViewBitacora control.
 </summary>
-	<remarks>
+<remarks>
 Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
-</member><member name="F:HS.WebUI.Bitacora.grillaBitacora">
-	<summary>
+</member>
+<member name="F:HS.WebUI.Bitacora._grillaBitacora">
+<summary>
 grillaBitacora control.
 </summary>
-	<remarks>
+<remarks>
 Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
-</member><member name="F:HS.WebUI.Bitacora.btnVolver">
-	<summary>
+</member>
+<member name="F:HS.WebUI.Bitacora._btnVolver">
+<summary>
 btnVolver control.
 </summary>
-	<remarks>
+<remarks>
 Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
-</member><member name="F:HS.WebUI.Login.divIniciarSesion">
-	<summary>
-divIniciarSesion control.
+</member>
+<member name="F:HS.WebUI._Default._welcomeLabel">
+<summary>
+welcomeLabel control.
 </summary>
-	<remarks>
+<remarks>
 Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
-</member><member name="F:HS.WebUI.Login.lblMensaje">
-	<summary>
+</member>
+<member name="F:HS.WebUI._Default._lblMensaje">
+<summary>
 lblMensaje control.
 </summary>
-	<remarks>
+<remarks>
 Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
-</member><member name="F:HS.WebUI.Login.txtUsuario">
-	<summary>
+</member>
+<member name="F:HS.WebUI._Default._btnCarrito">
+<summary>
+btnCarrito control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HS.WebUI._Default._btnAdministracionProductos">
+<summary>
+btnAdministracionProductos control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HS.WebUI._Default._btnBitacora">
+<summary>
+btnBitacora control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HS.WebUI._Default._btnBackupYRestore">
+<summary>
+btnBackupYRestore control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HS.WebUI._Default._btnIntegridadBD">
+<summary>
+btnIntegridadBD control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HS.WebUI._Default._btnCambioDePrecios">
+<summary>
+btnCambioDePrecios control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HS.WebUI.Login._divIniciarSesion">
+<summary>
+divIniciarSesion control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HS.WebUI.Login._lblMensaje">
+<summary>
+lblMensaje control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:HS.WebUI.Login._txtUsuario">
+<summary>
 txtUsuario control.
 </summary>
-	<remarks>
+<remarks>
 Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
-</member><member name="F:HS.WebUI.Login.txtClave">
-	<summary>
+</member>
+<member name="F:HS.WebUI.Login._txtClave">
+<summary>
 txtClave control.
 </summary>
-	<remarks>
+<remarks>
 Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
-</member><member name="F:HS.WebUI.Login.btnLogin">
-	<summary>
+</member>
+<member name="F:HS.WebUI.Login._btnLogin">
+<summary>
 btnLogin control.
 </summary>
-	<remarks>
+<remarks>
 Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
-</member><member name="F:HS.WebUI.Login.divCerrarSesion">
-	<summary>
+</member>
+<member name="F:HS.WebUI.Login._divCerrarSesion">
+<summary>
 divCerrarSesion control.
 </summary>
-	<remarks>
+<remarks>
 Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
-</member><member name="F:HS.WebUI.Login.lblUsuarioActual">
-	<summary>
+</member>
+<member name="F:HS.WebUI.Login._lblUsuarioActual">
+<summary>
 lblUsuarioActual control.
 </summary>
-	<remarks>
+<remarks>
 Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
-</member><member name="F:HS.WebUI.Login.btnCerrarSesion">
-	<summary>
+</member>
+<member name="F:HS.WebUI.Login._btnCerrarSesion">
+<summary>
 btnCerrarSesion control.
 </summary>
-	<remarks>
+<remarks>
 Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
-</member><member name="F:HS.WebUI.Login.vistaAutenticacion">
-	<summary>
+</member>
+<member name="F:HS.WebUI.Login.vistaAutenticacion">
+ <summary>
  Provee servicios de inicio y fin de sesion
  </summary>
-	<remarks></remarks>
-</member><member name="F:HS.WebUI.Site.HeadContent">
-	<summary>
+ <remarks></remarks>
+</member>
+<member name="F:HS.WebUI.Site._HeadContent">
+<summary>
 HeadContent control.
 </summary>
-	<remarks>
+<remarks>
 Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
-</member><member name="F:HS.WebUI.Site.HeadLoginStatus">
-	<summary>
+</member>
+<member name="F:HS.WebUI.Site._HeadLoginStatus">
+<summary>
 HeadLoginStatus control.
 </summary>
-	<remarks>
+<remarks>
 Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
-</member><member name="F:HS.WebUI.Site.NavigationMenu">
-	<summary>
+</member>
+<member name="F:HS.WebUI.Site._NavigationMenu">
+<summary>
 NavigationMenu control.
 </summary>
-	<remarks>
+<remarks>
 Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
-</member><member name="F:HS.WebUI.Site.MainContent">
-	<summary>
+</member>
+<member name="F:HS.WebUI.Site._MainContent">
+<summary>
 MainContent control.
 </summary>
-	<remarks>
+<remarks>
 Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
-</member><member name="F:HS.WebUI.AutenticacionVista._autenticador">
-	<summary>
+</member>
+<member name="T:HS.WebUI.AutenticacionVista">
+ <summary>
+ Provee funcionalidades de inicio y fin de sesion.
+ </summary>
+</member>
+<member name="F:HS.WebUI.AutenticacionVista._autenticador">
+ <summary>
  Objeto de la capa de negocio dinamico que obtiene y actualiza objetos
  del tipo Usuario.
  </summary>
-	<remarks></remarks>
-</member><member name="P:HS.WebUI.AutenticacionVista.UsuarioActual">
-	<summary>
+</member>
+<member name="P:HS.WebUI.AutenticacionVista.UsuarioActual">
+ <summary>
  Obtiene el usuario de la sesin actual, o Nothing (null en C#), si no
  esta dentro de una sesion valida.
  </summary>
-	<value></value>
-	<returns>Usuario o Nothing (null en C#) si no esta dentro de una sesion valida.</returns>
-	<remarks></remarks>
-</member><member name="P:HS.WebUI.AutenticacionVista.IntentosFallidos">
-	<summary>
+ <value></value>
+ <returns>Usuario o Nothing si no esta dentro de una sesion valida.</returns>
+ <remarks></remarks>
+</member>
+<member name="P:HS.WebUI.AutenticacionVista.IntentosFallidos">
+ <summary>
  Cuanta los intentos fallidos de inicio de sesion de un usuario valido
  </summary>
-	<value></value>
-	<returns></returns>
-	<remarks></remarks>
-</member><member name="M:HS.WebUI.AutenticacionVista.IniciarSesion(HS.BE.UsuarioDTO)">
-	<summary>
+ <value></value>
+</member>
+<member name="M:HS.WebUI.AutenticacionVista.IniciarSesion(HS.BE.UsuarioDTO)">
+ <summary>
  Inicia sesion con un usuario
  </summary>
-	<param name="value"></param>
-	<returns></returns>
-	<remarks></remarks>
-</member><member name="M:HS.WebUI.AutenticacionVista.CerrarSesion">
-	<summary>
+</member>
+<member name="M:HS.WebUI.AutenticacionVista.CerrarSesion">
+ <summary>
  Elimina toda la informacion de la sesion del Usuario actual.
  </summary>
-	<remarks></remarks>
-</member><member name="M:HS.WebUI.AutenticacionVista.CrearUsuarioParaIniciarSesion(System.String,System.String)">
-	<summary>
+ <remarks></remarks>
+</member>
+<member name="M:HS.WebUI.AutenticacionVista.CrearUsuarioParaIniciarSesion(System.String,System.String)">
+ <summary>
  Retorna una instancia de un usuario valido de acuerdo a los parametros requeridos
  de inicio de sesion.
  </summary>
-	<param name="nombre"></param>
-	<param name="clave"></param>
-	<returns></returns>
-	<remarks></remarks>
-</member><member name="M:HS.WebUI.AutenticacionVista.UsuarioPoseePermiso(HS.BE.UsuarioDTO,System.String)">
-	<summary>
+</member>
+<member name="M:HS.WebUI.AutenticacionVista.UsuarioPoseePermiso(HS.BE.UsuarioDTO,System.String)">
+ <summary>
  Valida que un usuairo posee un permiso dentro de su perfil.
  </summary>
-	<param name="usuarioActual"></param>
-	<param name="nombrePermiso"></param>
-	<returns></returns>
-	<remarks></remarks>
-</member><member name="T:HS.WebUI.AutenticacionVista">
-	<summary>
- Provee funcionalidades de inicio y fin de sesion.
- </summary>
-	<remarks></remarks>
-</member><member name="F:HS.WebUI._Default.lblMensaje">
-	<summary>
-lblMensaje control.
-</summary>
-	<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member><member name="F:HS.WebUI._Default.btnCarrito">
-	<summary>
-btnCarrito control.
-</summary>
-	<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member><member name="F:HS.WebUI._Default.btnAdministracionUsuarios">
-	<summary>
-btnAdministracionUsuarios control.
-</summary>
-	<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member><member name="F:HS.WebUI._Default.btnBitacora">
-	<summary>
-btnBitacora control.
-</summary>
-	<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member><member name="F:HS.WebUI._Default.btnBackupYRestore">
-	<summary>
-btnBackupYRestore control.
-</summary>
-	<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member><member name="F:HS.WebUI._Default.btnIntegridadBD">
-	<summary>
-btnIntegridadBD control.
-</summary>
-	<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member><member name="P:HS.WebUI.My.MyWebExtension.Computer">
-	<summary>
- Returns information about the host computer.
- </summary>
-</member><member name="P:HS.WebUI.My.MyWebExtension.User">
-	<summary>
- Returns information for the current Web user.
- </summary>
-</member><member name="P:HS.WebUI.My.MyWebExtension.Request">
-	<summary>
- Returns Request object.
- </summary>
-</member><member name="P:HS.WebUI.My.MyWebExtension.Response">
-	<summary>
- Returns Response object.
- </summary>
-</member><member name="P:HS.WebUI.My.MyWebExtension.Log">
-	<summary>
- Returns the Asp log object.
- </summary>
-</member><member name="T:HS.WebUI.My.MyWebExtension">
-	<summary>
- Module used to define the properties that are available in the My Namespace for Web projects.
- </summary>
-	<remarks></remarks>
 </member>
 </members>
 </doc>

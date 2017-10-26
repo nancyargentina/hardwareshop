@@ -5,14 +5,12 @@ Imports System.Web.HttpContext
 ''' <summary>
 ''' Provee funcionalidades de inicio y fin de sesion.
 ''' </summary>
-''' <remarks></remarks>
 Public Class AutenticacionVista
 
     ''' <summary>
     ''' Objeto de la capa de negocio dinamico que obtiene y actualiza objetos
     ''' del tipo Usuario.
     ''' </summary>
-    ''' <remarks></remarks>
     Private _autenticador As IAutenticador = New Autenticador()
 
     ''' <summary>
@@ -20,7 +18,7 @@ Public Class AutenticacionVista
     ''' esta dentro de una sesion valida.
     ''' </summary>
     ''' <value></value>
-    ''' <returns>Usuario o Nothing (null en C#) si no esta dentro de una sesion valida.</returns>
+    ''' <returns>Usuario o Nothing si no esta dentro de una sesion valida.</returns>
     ''' <remarks></remarks>
     Public ReadOnly Property UsuarioActual() As UsuarioDTO
         Get
@@ -35,7 +33,6 @@ Public Class AutenticacionVista
                     Return Nothing
                 End If
             Else
-                ' no existe contexto Web, entorno de prueba o no es entorno Web!
                 Return Nothing
             End If
         End Get
@@ -45,8 +42,6 @@ Public Class AutenticacionVista
     ''' Cuanta los intentos fallidos de inicio de sesion de un usuario valido
     ''' </summary>
     ''' <value></value>
-    ''' <returns></returns>
-    ''' <remarks></remarks>
     Public Property IntentosFallidos() As Integer
         Get
             If Not HttpContext.Current Is Nothing Then
@@ -54,11 +49,9 @@ Public Class AutenticacionVista
                     ' existe sesion de intentos fallidos
                     Return CType(HttpContext.Current.Session("IntentosFallidos"), Integer)
                 Else
-                    ' no existe ninguna sesion de intentos fallidos en el contexto actual
                     Return 0
                 End If
             Else
-                ' no existe contexto Web, entorno de prueba o no es entorno Web!
                 Return 0
             End If
         End Get
@@ -70,9 +63,6 @@ Public Class AutenticacionVista
     ''' <summary>
     ''' Inicia sesion con un usuario
     ''' </summary>
-    ''' <param name="value"></param>
-    ''' <returns></returns>
-    ''' <remarks></remarks>
     Public Function IniciarSesion(ByVal value As UsuarioDTO) As Boolean
         ' por predeterminado se retorna falso, a menos que todas las condiciones sean validas
         Dim usuarioIntentoActual As UsuarioDTO = Me._autenticador.IniciarSesion(value, Me.IntentosFallidos)
@@ -87,18 +77,6 @@ Public Class AutenticacionVista
             End If
             loginOk = True
         End If
-        'Try
-        '    If Integridad.VerificarIntegridadBD = Nothing Then
-        '        If loginOk Then
-        '            Dim mBitacora As BitacoraBLL = New BitacoraBLL()
-        '            mBitacora.Loguear(BitacoraBLL.TIPOLOG.LOGINOK, value.Nombre)
-        '        Else
-        '            Dim mBitacora As BitacoraBLL = New BitacoraBLL()
-        '            mBitacora.Loguear(BitacoraBLL.TIPOLOG.LOGINFAIL, value.Nombre)
-        '        End If
-        '    End If
-        'Catch ex As Exception
-        'End Try
         If loginOk Then
             Dim mBitacora As BitacoraBLL = New BitacoraBLL()
             mBitacora.Loguear(BitacoraBLL.TIPOLOG.LOGINOK, value.Nombre)
@@ -123,15 +101,10 @@ Public Class AutenticacionVista
     ''' Retorna una instancia de un usuario valido de acuerdo a los parametros requeridos
     ''' de inicio de sesion.
     ''' </summary>
-    ''' <param name="nombre"></param>
-    ''' <param name="clave"></param>
-    ''' <returns></returns>
-    ''' <remarks></remarks>
     Public Function CrearUsuarioParaIniciarSesion(ByVal nombre As String, ByVal clave As String) As UsuarioDTO
         Dim usuarioLogin As UsuarioDTO = New UsuarioDTO()
         usuarioLogin.Nombre = nombre
         usuarioLogin.Clave = Encrypter.EncriptarSHA512(clave)
-        'usuarioLogin.Clave = clave
         usuarioLogin.Eliminado = False
         usuarioLogin.Bloqueado = False
         Return usuarioLogin
@@ -140,10 +113,6 @@ Public Class AutenticacionVista
     ''' <summary>
     ''' Valida que un usuairo posee un permiso dentro de su perfil.
     ''' </summary>
-    ''' <param name="usuarioActual"></param>
-    ''' <param name="nombrePermiso"></param>
-    ''' <returns></returns>
-    ''' <remarks></remarks>
     Public Function UsuarioPoseePermiso(ByVal usuarioActual As UsuarioDTO, ByVal nombrePermiso As String) As Boolean
         Dim contiene As Boolean = False
         If Not usuarioActual Is Nothing Then

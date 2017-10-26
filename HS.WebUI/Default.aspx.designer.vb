@@ -12,7 +12,16 @@ Option Explicit On
 
 
 Partial Public Class _Default
-
+    
+    '''<summary>
+    '''welcomeLabel control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents welcomeLabel As Global.System.Web.UI.WebControls.Label
+    
     '''<summary>
     '''lblMensaje control.
     '''</summary>
@@ -21,7 +30,7 @@ Partial Public Class _Default
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
     Protected WithEvents lblMensaje As Global.System.Web.UI.WebControls.Label
-
+    
     '''<summary>
     '''btnCarrito control.
     '''</summary>
@@ -30,16 +39,16 @@ Partial Public Class _Default
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
     Protected WithEvents btnCarrito As Global.System.Web.UI.WebControls.Button
-
+    
     '''<summary>
-    '''btnAdministracionUsuarios control.
+    '''btnAdministracionProductos control.
     '''</summary>
     '''<remarks>
     '''Auto-generated field.
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
-    Protected WithEvents btnAdministracionUsuarios As Global.System.Web.UI.WebControls.Button
-
+    Protected WithEvents btnAdministracionProductos As Global.System.Web.UI.WebControls.Button
+    
     '''<summary>
     '''btnBitacora control.
     '''</summary>
@@ -48,7 +57,7 @@ Partial Public Class _Default
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
     Protected WithEvents btnBitacora As Global.System.Web.UI.WebControls.Button
-
+    
     '''<summary>
     '''btnBackupYRestore control.
     '''</summary>
@@ -57,7 +66,7 @@ Partial Public Class _Default
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
     Protected WithEvents btnBackupYRestore As Global.System.Web.UI.WebControls.Button
-
+    
     '''<summary>
     '''btnIntegridadBD control.
     '''</summary>
@@ -66,4 +75,13 @@ Partial Public Class _Default
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
     Protected WithEvents btnIntegridadBD As Global.System.Web.UI.WebControls.Button
+    
+    '''<summary>
+    '''btnCambioDePrecios control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents btnCambioDePrecios As Global.System.Web.UI.WebControls.Button
 End Class

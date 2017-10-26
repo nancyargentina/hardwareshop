@@ -9,7 +9,7 @@
         Dim usuarioActual = autenticacionVista.UsuarioActual
 
         If Not usuarioActual Is Nothing Then
-            HeadLoginStatus.InnerText = "Sesion: " + usuarioActual.Nombre
+            HeadLoginStatus.InnerText = usuarioActual.Nombre
         Else
             HeadLoginStatus.InnerText = "Iniciar Sesion"
         End If

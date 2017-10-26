@@ -26,7 +26,6 @@ Public Class UsuarioVista
     End Property
 
     Public Function ObtenerPorId(ByVal id As Integer) As UsuarioDTO
-        'modificar
         Dim filtro As UsuarioDTO = New UsuarioDTO
         filtro.Id = id
         Me.Usuario = Me.usuarioBLL.Consulta(filtro)
@@ -67,7 +66,6 @@ Public Class UsuarioVista
     End Function
 
     Public Sub LlenarGrilla(ByRef dataGrid As System.Web.UI.WebControls.GridView)
-        'traer todos los usuarios y enlazarlo al DataSource del control
         dataGrid.DataSource = Me.usuarioBLL.ConsultaRango(Nothing, Nothing)
         dataGrid.DataBind()
     End Sub
@@ -81,7 +79,6 @@ Public Class UsuarioVista
         listBox.Items.Clear()
         listBox.DataTextField = "Nombre"
         listBox.DataValueField = "Id"
-        'traer todos los permisos y enlazarlo al DataSource del control
         listBox.DataSource = lista
         listBox.DataBind()
     End Sub

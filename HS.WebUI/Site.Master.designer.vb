@@ -12,7 +12,7 @@ Option Explicit On
 
 
 Partial Public Class Site
-
+    
     '''<summary>
     '''HeadContent control.
     '''</summary>
@@ -21,7 +21,7 @@ Partial Public Class Site
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
     Protected WithEvents HeadContent As Global.System.Web.UI.WebControls.ContentPlaceHolder
-
+    
     '''<summary>
     '''HeadLoginStatus control.
     '''</summary>
@@ -30,7 +30,7 @@ Partial Public Class Site
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
     Protected WithEvents HeadLoginStatus As Global.System.Web.UI.HtmlControls.HtmlAnchor
-
+    
     '''<summary>
     '''NavigationMenu control.
     '''</summary>
@@ -39,7 +39,7 @@ Partial Public Class Site
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
     Protected WithEvents NavigationMenu As Global.System.Web.UI.WebControls.Menu
-
+    
     '''<summary>
     '''MainContent control.
     '''</summary>

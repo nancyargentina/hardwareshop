@@ -6,63 +6,71 @@ HS.BE
 </name>
 </assembly>
 <members>
+<member name="T:HS.BE.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
 <member name="P:HS.BE.My.Resources.Resources.ResourceManager">
-	<summary>
+<summary>
   Returns the cached ResourceManager instance used by this class.
 </summary>
-</member><member name="P:HS.BE.My.Resources.Resources.Culture">
-	<summary>
+</member>
+<member name="P:HS.BE.My.Resources.Resources.Culture">
+<summary>
   Overrides the current thread's CurrentUICulture property for all
   resource lookups using this strongly typed resource class.
 </summary>
-</member><member name="T:HS.BE.My.Resources.Resources">
-	<summary>
-  A strongly-typed resource class, for looking up localized strings, etc.
-</summary>
-</member><member name="M:HS.BE.ICRUD`1.Alta(`0@)">
-	<summary>
- Agrega un objeto del tipo T.
- </summary>
-	<param name="value"></param>
-	<returns></returns>
-	<remarks></remarks>
-</member><member name="M:HS.BE.ICRUD`1.Baja(`0@)">
-	<summary>
- Elimina un objeto del tipo T ya existente.
- </summary>
-	<param name="value"></param>
-	<returns></returns>
-	<remarks></remarks>
-</member><member name="M:HS.BE.ICRUD`1.Modificacion(`0@)">
-	<summary>
- Modifica un objeto del tipo T ya existente.
- </summary>
-	<param name="value"></param>
-	<returns></returns>
-	<remarks></remarks>
-</member><member name="M:HS.BE.ICRUD`1.Consulta(`0@)">
-	<summary>
- Retorna el primer objeto del tipo T que coincida con el filtro especificado.
- </summary>
-	<param name="filtro"></param>
-	<returns></returns>
-	<remarks></remarks>
-</member><member name="M:HS.BE.ICRUD`1.ConsultaRango(`0@,`0@)">
-	<summary>
- Retorna todos los objetos del tipo T que coincidan con los valores
- especificados en el rango desde-hasta.
- </summary>
-	<param name="filtroDesde"></param>
-	<param name="filtroHasta"></param>
-	<returns></returns>
-	<remarks></remarks>
-</member><member name="T:HS.BE.ICRUD`1">
-	<summary>
+</member>
+<member name="T:HS.BE.ICRUD`1">
+ <summary>
  Interfaz que define los metodos que todas las clases que expongan mecanismos de
  Alta, Baja, Modificacion y Consulta deben implementar (Create Read Update Delete).
  </summary>
-	<typeparam name="T"></typeparam>
-	<remarks></remarks>
+ <typeparam name="T"></typeparam>
+ <remarks></remarks>
+</member>
+<member name="M:HS.BE.ICRUD`1.Alta(`0@)">
+ <summary>
+ Agrega un objeto del tipo T.
+ </summary>
+ <param name="value"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:HS.BE.ICRUD`1.Baja(`0@)">
+ <summary>
+ Elimina un objeto del tipo T ya existente.
+ </summary>
+ <param name="value"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:HS.BE.ICRUD`1.Modificacion(`0@)">
+ <summary>
+ Modifica un objeto del tipo T ya existente.
+ </summary>
+ <param name="value"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:HS.BE.ICRUD`1.Consulta(`0@)">
+ <summary>
+ Retorna el primer objeto del tipo T que coincida con el filtro especificado.
+ </summary>
+ <param name="filtro"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:HS.BE.ICRUD`1.ConsultaRango(`0@,`0@)">
+ <summary>
+ Retorna todos los objetos del tipo T que coincidan con los valores
+ especificados en el rango desde-hasta.
+ </summary>
+ <param name="filtroDesde"></param>
+ <param name="filtroHasta"></param>
+ <returns></returns>
+ <remarks></remarks>
 </member>
 </members>
 </doc>

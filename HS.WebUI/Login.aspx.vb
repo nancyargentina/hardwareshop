@@ -32,6 +32,7 @@ Public Class Login
 
     Private MaxIntentos As Integer = 3
 
+
     Protected Sub btnLogin_Click(ByVal sender As Object, ByVal e As EventArgs) Handles btnLogin.Click
         Try
             Dim usuarioLogin As UsuarioDTO = Nothing
@@ -78,4 +79,5 @@ Public Class Login
             lblUsuarioActual.Text = ErrorHandler.ObtenerMensajeDeError(ex)
         End Try
     End Sub
+
 End Class

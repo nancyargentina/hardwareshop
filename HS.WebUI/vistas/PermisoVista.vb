@@ -64,7 +64,6 @@ Public Class PermisoVista
     End Function
 
     Public Sub LlenarGrilla(ByRef dataGrid As System.Web.UI.WebControls.GridView)
-        'traer todos los permisos y enlazarlo al DataSource del control
         dataGrid.DataSource = Me.PermisoBLL.ConsultaRango(Nothing, Nothing)
         dataGrid.DataBind()
     End Sub
@@ -78,7 +77,6 @@ Public Class PermisoVista
         listBox.Items.Clear()
         listBox.DataTextField = "Nombre"
         listBox.DataValueField = "Id"
-        'traer todos los permisos y enlazarlo al DataSource del control
         listBox.DataSource = lista
         listBox.DataBind()
     End Sub
